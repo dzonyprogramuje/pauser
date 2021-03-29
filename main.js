@@ -26,7 +26,7 @@ start.addEventListener('click', ()=>{
     let interval = setInterval(()=>{
         if(time < 1){
             clearInterval(interval);
-            timerEl.innerHTML = "Ende";
+            timerEl.innerHTML = "End";
             start.classList.remove("disabled");
         }
         countDown();
